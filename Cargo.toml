@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "utils",
+    "macros",
+    "autobindings",
+    "autodoc",
+]

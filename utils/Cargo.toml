@@ -10,7 +10,7 @@ instruction_params_casting = ["solindex-macros/instruction_params_casting", "byt
 
 [dependencies]
 borsh = "0.9"
-solana-program = { git = "https://github.com/solindex/sdk.git", version = "=1.8.14" }
+solana-program = "1.8"
 pyth-client = "0.2.2"
 solindex-macros = { path = "../macros" }
-bytemuck = {version = "1.7.2", optional=true}
+bytemuck = { version = "1.7.2", optional=true }

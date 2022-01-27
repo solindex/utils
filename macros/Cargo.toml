@@ -12,7 +12,7 @@ instruction_params_casting = []
 proc-macro = true
 
 [dependencies]
-solana-program = { git = "https://github.com/solindex/sdk.git", version = "=1.8.14" }
+solana-program = "1.8"
 syn = "1.0"
 quote = "1.0"
 proc-macro2 = "1.0"
